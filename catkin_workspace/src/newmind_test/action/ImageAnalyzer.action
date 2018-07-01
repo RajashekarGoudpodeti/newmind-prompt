@@ -1,0 +1,7 @@
+#goal
+bool  mode
+---
+#result
+float32[] color
+---
+#feedback

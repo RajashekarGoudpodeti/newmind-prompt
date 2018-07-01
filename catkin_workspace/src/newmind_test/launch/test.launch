@@ -1,0 +1,6 @@
+<launch>
+<node name="ImageReader_server" pkg="newmind_test" type="ImageReader_server" />
+<node name="ImageReader_client" pkg="newmind_test" type="ImageReader_client" />
+<param name="goal" value="true" type="bool" />
+<param name="image" value="$(find newmind_test)/images/Red.jpg"/>
+</launch>

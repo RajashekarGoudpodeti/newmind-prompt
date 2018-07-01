@@ -1,0 +1,2 @@
+newmind_test
+-DCATKIN_DEVEL_PREFIX=/home/username/catkin_workspace/devel -DCMAKE_INSTALL_PREFIX=/home/username/catkin_workspace/install -G Unix Makefiles

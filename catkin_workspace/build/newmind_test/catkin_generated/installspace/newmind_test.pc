@@ -1,0 +1,8 @@
+prefix=/home/username/catkin_workspace/install
+
+Name: newmind_test
+Description: Description of newmind_test
+Version: 0.0.0
+Cflags: -I/home/username/catkin_workspace/install/include
+Libs: -L/home/username/catkin_workspace/install/lib -lnewmind_test
+Requires: actionlib actionlib_msgs message_generation roscpp rospy std_msgs
